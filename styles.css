@@ -1,0 +1,132 @@
+/* Normal Type: #A8A77A
+Fire Type: #EE8130
+Water Type: #6390F0
+Electric Type: #F7D02C
+Grass Type: #7AC74C
+Ice Type: #96D9D6
+Fighting Type: #C22E28
+Poison Type: #A33EA1
+Ground Type: #E2BF65
+Flying Type: #A98FF3
+Psychic Type: #F95587
+Bug Type: #A6B91A
+Rock Type: #B6A136
+Ghost Type: #735797
+Dragon Type: #6F35FC
+Dark Type: #705746
+Steel Type: #B7B7CE
+Fairy Type: #D685AD */
+
+/* General styles */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+/* Search input styling */
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.search-input__container {
+  margin-top: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+#search {
+  font-size: 1.4rem;
+  padding-left: 0.6rem;
+}
+
+.btn-search {
+  font-size: 2rem;
+  padding: 0 0.6rem 0 0.6rem;
+}
+
+.search-pokemon {
+  font-size: 4rem;
+}
+
+/* Card styling */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* Card Header styling */
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  border-bottom: 1px solid #999;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+}
+
+.card-pokemon__name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-pokemon__id {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #666;
+}
+
+/* Card img styling */
+
+.card-pokemon__img {
+  height: 250px;
+  width: auto;
+}
+
+/* Card type styling */
+
+.card-poke__info__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 0.6rem;
+}
+
+.card-pokemon__type {
+  font-size: 1.4rem;
+}
+
+.card-pokemon__weight {
+  font-size: 1.4rem;
+}
+
+.card-pokemon__ablitlies {
+  font-size: 1.4rem;
+}

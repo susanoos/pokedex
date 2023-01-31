@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pokemon</title>
+  </head>
+  <body>
+    <div class="search-container">
+      <label class="search-pokemon">Search Pokémon</label>
+      <div class="search-input__container">
+        <input type="text" id="search" placeholder="Enter Pokémon" />
+        <button class="btn-search">🔎</button>
+      </div>
+      <div class="card hidden">
+        <div class="card-header">
+          <h2 class="card-pokemon__name"></h2>
+          <span class="card-pokemon__id"></span>
+        </div>
+        <img src="" class="card-pokemon__img" />
+        <div class="card-poke__info__container">
+          <span class="card-pokemon__type"></span>
+          <span class="card-pokemon__weight"></span>
+          <span class="card-pokemon__ablitlies"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
