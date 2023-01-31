@@ -180,6 +180,7 @@ const renderPokemon = async (pokemonName) => {
 
 btnSearch.addEventListener("click", (e) => {
   e.preventDefault();
+  searchPokemon.textContent = "Search Pokémon";
   const pokemonName = searchInput.value;
   renderPokemon(pokemonName.toLowerCase());
 
