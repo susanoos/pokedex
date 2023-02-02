@@ -94,12 +94,13 @@ body {
 .card-pokemon__name {
   font-size: 2rem;
   font-weight: bold;
+  color: #fff;
 }
 
 .card-pokemon__id {
   font-size: 1.6rem;
   font-weight: bold;
-  color: #666;
+  color: #eee;
 }
 
 /* Card img styling */
