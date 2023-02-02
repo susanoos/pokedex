@@ -186,3 +186,10 @@ btnSearch.addEventListener("click", (e) => {
 
   searchInput.value = "";
 });
+
+var s = "grunt";
+var bear = { sound: "roar" };
+function roar() {
+  console.log(this.sound);
+}
+roar.apply(bear);
