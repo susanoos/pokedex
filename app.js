@@ -186,3 +186,15 @@ btnSearch.addEventListener("click", (e) => {
 
   searchInput.value = "";
 });
+
+searchInput.addEventListener("keydown", (e) => {
+  const { key } = e;
+  if (key === "Enter") {
+    e.preventDefault();
+    searchPokemon.textContent = "Search Pokémon";
+    const pokemonName = searchInput.value;
+    renderPokemon(pokemonName.toLowerCase());
+
+    searchInput.value = "";
+  }
+});
